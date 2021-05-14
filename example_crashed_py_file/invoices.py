@@ -5,7 +5,7 @@ class InvoicesRepo:
     invoices = []
 
     def __init__(self):
-        repo = GetRpo()
+        repo = GetRepo()
         self.invoices = repo.invoices()
 
     def get_with_term_today(self):
